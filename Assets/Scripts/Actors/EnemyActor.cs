@@ -4,8 +4,8 @@ using System.Collections;
 public class EnemyActor : Actor
 {
 //
-//	public override Action GetAction()
-//	{
+	public override Action GetAction()
+	{
 //		PlayerActor target = FindObjectOfType<PlayerActor>();
 //		AStar a = GetAStar(BoardPosition, target.BoardPosition);
 //		a.findPath();
@@ -15,8 +15,8 @@ public class EnemyActor : Actor
 //			IntVector2 direction = IntVector2.GetDirection(node.x - BoardPosition.X, node.y - BoardPosition.Y);
 //			return GetAttackAction(direction);
 //		}
-//		return GetComponent<RestAction>();
-//	}
+		return GetComponent<RestAction>();
+	}
 //
 //	private AStar GetAStar(BoardPosition from, BoardPosition to)
 //	{
