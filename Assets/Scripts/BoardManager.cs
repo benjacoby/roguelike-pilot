@@ -31,8 +31,8 @@ public class BoardManager : MonoBehaviour {
 				board[xi, yi] = 'p';
 			}
 		}
-//		TESTING: Use this code to display the characters in the 'board' array in the console
-//		foreach (char i in board) {print (i);} 
+		//TESTING: Use this code to display the characters in the 'board' array in the console
+		foreach (char i in board) {print (i);} 
 	}
 
 	public char[,] BOARD

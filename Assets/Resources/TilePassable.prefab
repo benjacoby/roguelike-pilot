@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013782610774}
   - 212: {fileID: 212000013092917490}
   m_Layer: 0
-  m_Name: Passable
+  m_Name: TilePassable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
