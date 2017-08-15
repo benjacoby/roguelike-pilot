@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour {
 		for (int xi = 0; xi < board.GetLength (0); xi++) {
 			for (int yi = 0; yi < board.GetLength (1); yi++) {
 				GameObject tile = Instantiate (Resources.Load ("TilePassable"), new Vector3 (xi, yi, 0), Quaternion.identity) as GameObject;
+				tile.transform.SetParent (transform);
 			}
 		}
 	}
