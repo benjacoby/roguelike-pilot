@@ -20,7 +20,7 @@ public class BoardManager : MonoBehaviour {
 		else Debug.LogError("More than one BoardManager");
 		SetupBoard(boardWidth,boardHeight);
 	}
-		
+
 	public void SetupBoard(int width, int height)
 	{
 		board = new char[width, height];
